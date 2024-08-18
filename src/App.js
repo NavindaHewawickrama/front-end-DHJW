@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
-import { BrowserRouter,Route,Router, Routes } from 'react-router-dom';
+import { BrowserRouter,Route, Routes } from 'react-router-dom';
 import ShopCategory from './Pages/ShopCategory';
 import Shop from './Pages/Shops';
 import Product from './Pages/Product';
