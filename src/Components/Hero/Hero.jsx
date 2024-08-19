@@ -1,7 +1,8 @@
 import React from 'react';
 import './Hero.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHand,faArrowsUpDown } from '@fortawesome/free-solid-svg-icons';
+import { faHand,faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
+import hero_image from './../Assets/hero-image.jpg';
 
 const Hero = () => {
     return(
@@ -11,20 +12,20 @@ const Hero = () => {
                     NEW ARRIVALS ONLY
                 </h2>
                 <div>
-                    <div className="hand-hand-icon">
+                    <div className="hero-hand-icon">
                         <p>new</p>
-                        <FontAwesomeIcon icon={faHand}/>
+                        <FontAwesomeIcon icon={faHand} size='3x'/>
                     </div>
                     <p>collections</p>
                     <p>for everyone</p>
                 </div>
                 <div className="hero-latest-btn">
                     <div>Latest Collection</div>
-                    <FontAwesomeIcon icon={faArrowsUpDown}/>
+                    <FontAwesomeIcon icon={faCircleArrowRight}/>
                 </div>
             </div>
             <div className="hero-right">
-
+                <img src={hero_image} alt="" />
             </div>
         </div>
     )
